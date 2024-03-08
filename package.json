@@ -1,0 +1,21 @@
+{
+  "name": "5-jobapplicationproject",
+  "version": "1.0.0",
+  "description": "job app",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js",
+    "test": "start"
+  },
+  "keywords": [
+    "job",
+    "api"
+  ],
+  "author": "trisha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0"
+  }
+}
