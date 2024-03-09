@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 
 const app = express();
 
-mongoose.connect("mongodb://127.0.0.1:27017/jobApp")
+mongoose.connect("mongodb+srv://Trisha:DapBhWPyZwI471R1@cluster0.oaywa5b.mongodb.net/")
 .then(() =>{
     console.log('database connected')
 })
@@ -16,6 +16,6 @@ app.use(express.json())
 
 app.use("/api/v1/job/",jobRoutes);
 
-app.listen(5000, () => {
+app.listen(10000, () => {
     console.log('server is up and running')
 })
